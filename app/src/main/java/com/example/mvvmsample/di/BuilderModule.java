@@ -1,5 +1,8 @@
 package com.example.mvvmsample.di;
 
+import com.example.mvvmsample.ui.home.HomeActivity;
+import com.example.mvvmsample.ui.home.HomeModule;
+
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
 
@@ -16,6 +19,8 @@ import dagger.android.ContributesAndroidInjector;
 public abstract class BuilderModule {
 
 
+    @ContributesAndroidInjector(modules = HomeModule.class)
+    abstract HomeActivity bindHomeActivity();
 
 
 }

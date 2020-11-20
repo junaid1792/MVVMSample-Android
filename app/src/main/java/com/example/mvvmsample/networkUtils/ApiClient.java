@@ -16,7 +16,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
 
-    public static final String BASE_URL = "http://139.59.62.37:8080/shifu/api/";
+    public static final String BASE_URL = "https://api.thecatapi.com/v1/images/";
 
     private static Retrofit retrofit = null;
     private static OkHttpClient client = null;
