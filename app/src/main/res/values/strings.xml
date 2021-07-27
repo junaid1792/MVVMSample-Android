@@ -5,4 +5,5 @@
     <string name="password">Password</string>
     <string name="refresh">Refresh</string>
     <string name="click_refresh_for_new_image">Click Refresh for new Cat image</string>
+    <string name="internal_storage">Internal Storage</string>
 </resources>
